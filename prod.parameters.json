@@ -2,15 +2,20 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "appServiceAppName": {
-            "value": "beltran-app-prod-bicep"
+        "appServiceAppName1": {
+            "value": "beltran-assignment-be-prod"
         },
-        "appServicePlanName": {
-            "value": "beltran-app-prod-bicep"
+        "appServiceAppName3": {
+            "value": "beltran-assignment-fe-prod"
+        },
+        "appServicePlanName1": {
+            "value": "beltran-assignment-prod"
         },
         "storageAccountName": {
             "value": "beltranprodstorage"
+        },
+        "environmentType": {
+            "value": "prod"
         }
     }
-}
-    
+  }

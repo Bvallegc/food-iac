@@ -2,15 +2,20 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "appServiceAppName": {
-            "value": "beltran-app-dev-bicep"
+        "appServiceAppName2": {
+            "value": "beltran-assignment-be-dev"
         },
-        "appServicePlanName": {
-            "value": "beltran-app-dev-bicep"
+        "appServiceAppName4": {
+            "value": "beltran-assignment-fe-dev"
+        },
+        "appServicePlanName2": {
+            "value": "beltran-assignment-dev"
         },
         "storageAccountName": {
             "value": "beltrandevstorage"
+        },
+        "environmentType": {
+            "value": "nonprod"
         }
     }
-}
-    
+  }
